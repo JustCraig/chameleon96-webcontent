@@ -1,0 +1,1 @@
+(function(l){l.blockUI.defaults.applyPlatformOpacityRules=false;l.blockUI.defaults.css={};l.blockUI.defaults.overlayCSS={};l.blockUI.defaults.growlCSS={}})(jQuery);

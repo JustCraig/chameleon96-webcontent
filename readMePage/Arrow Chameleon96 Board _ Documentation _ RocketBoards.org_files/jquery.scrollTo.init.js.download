@@ -1,0 +1,1 @@
+jQuery(function(t){t(document).on("click",".jqScrollToLink",function(){var n=t.extend({},t(this).metadata());t.scrollTo(n.target,n);return false})});

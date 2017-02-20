@@ -1,0 +1,1 @@
+jQuery(function(n){"use strict";n(".solrSearchBox form").livequery(function(){var r=n(this),t=r.attr("action");r.submit(function(){var n=r.find("input[name='search']"),i=t+(n&&n.val()?"#q="+n.val():"");window.location.href=i;return false})})});
