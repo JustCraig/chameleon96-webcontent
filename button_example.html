@@ -1,0 +1,98 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="button_example.css">
+
+
+</head>
+
+<body>
+<script src="index.js"></script>
+
+<div id="container">
+
+    <div id="wrapper">
+    <div class="navbar">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            
+            <li><a href="News.html">News</a></li>
+            
+            <li><a href="Blogs.html">Blogs</a>
+            <ul>
+            <li><a href="Blogs.html">Page 1</a></li>
+            <li><a href="Blogs%20page%202.html">Page 2</a></li>
+            </ul>
+            </li>
+            
+            <li><a href="History.html">History</a>
+            <ul>
+            <li><a href="History.html">Page 1</a></li>
+            <li><a href="History%20page%202.html">Page 2</a></li>
+            </ul>
+            </li>
+            
+            <li><a href="Match.html">Match Centre</a></li>
+        </ul>
+    </div>    <a href="Links.html"></a>
+    </div>
+    
+    <!-- #BeginEditable "content" -->
+    <div id="maincontent">
+    <br />
+    <br />
+   
+    <button class="button" onclick="myFunction()">Toggle1</button>
+ 
+ <div id= "first_frame">
+        <iframe class="iframe1" src="http://www.cnn.com" name="US News"
+                width="725px" height="400px">
+                content if browser does not support
+                </iframe>
+                <br />
+        <br />
+</div>
+
+       
+      <button class="button" onclick="myFunction()">Toggle2</button>
+<div id="second_frame"> 
+        <iframe class="iframe2" src="http://www.space.com/" name="NASA"
+                width="725px" height="400px">
+                content if browser does not support
+                </iframe>
+ 
+        <br />
+        <br />
+<div>
+
+
+        <strong class="copyright">© Craig Hogan</strong></div>    <!-- #EndEditable -->
+    <div id="footer">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="News.html">News</a></li>
+            <li><a href="Blogs.html">Blogs</a></li>
+            <li><a href="History.html">History</a></li>
+            <li><a href="Match.html">Match Centre</a></li>
+        </ul>
+     </div>
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("second_frame");
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+
+
+
+
+</body>
+
+<!-- #EndTemplate -->
+
+</html>

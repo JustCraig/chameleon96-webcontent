@@ -1,0 +1,96 @@
+<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1459429641334" domain="192.168.7.1">
+  <folder name="images">
+    <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index" seo="true"/>
+    <file name="boardtop.jpg" crc="3911977500" ref="index" seo="true"/>
+    <file name="board-bottom.jpg" crc="498842435" ref="index" seo="true"/>
+    <file name="reset_pushbuttons.jpg" crc="3995012306" ref="index" seo="true"/>
+    <file name="hps_reset_tree.jpg" crc="3770232850" ref="index" seo="true"/>
+    <file name="board_leds.jpg" crc="120360783" ref="index" seo="true"/>
+    <file name="led_table.jpg" crc="172623364" ref="index" seo="true"/>
+    <file name="user_pushbuttons.jpg" crc="329592019" ref="index" seo="true"/>
+    <file name="slide_switches.jpg" crc="4107215453" ref="index" seo="true"/>
+    <file name="user_leds.jpg" crc="4074739427" ref="index" seo="true"/>
+    <file name="user_pb_led_table.jpg" crc="38403406" ref="index" seo="true"/>
+    <file name="hps_accelerometer.jpg" crc="4173697394" ref="play" seo="true"/>
+    <file name="sfft5.png" crc="4185703515" ref="play" seo="true"/>
+    <file name="reset_pb_table.jpg" crc="4119196603" ref="index" seo="true"/>
+    <file name="develop.jpg" crc="182718674" ref="develop" seo="true"/>
+    <file name="learn.jpg" crc="373002740" ref="learn" seo="true"/>
+    <file name="fft_cpu_source_ramdisk.jpg" crc="11106442" ref="play" seo="true"/>
+    <file name="fft_fpga_source_ramdisk.jpg" crc="9133104" ref="play" seo="true"/>
+    <file name="fft_cpu_source_fpga.jpg" crc="269045973" ref="play" seo="true"/>
+    <file name="fft_fpga_source_fpga.jpg" crc="4125855692" ref="play" seo="true"/>
+    <file name="handoff.jpg" crc="3967898808" ref="learn" seo="true"/>
+    <file name="soc_bridges.jpg" crc="199273124" ref="learn" seo="true"/>
+    <file name="register_view.jpg" crc="418281144" ref="learn" seo="true"/>
+    <file name="other_if.jpg" crc="82722835" ref="learn" seo="true"/>
+    <file name="hps-block-diagram.jpg" crc="503257085" ref="index" seo="true"/>
+    <file name="de0-nano-soc_blackdiagram_33-01.jpg" crc="4274690953" ref="index" seo="true"/>
+    <file name="de0-nano-soc_blackdiagram_340-01.jpg" crc="4080932808" ref="index" seo="true"/>
+    <file name="de0-nano-soc_blackdiagram_341-01.jpg" crc="3825713749" ref="play" seo="true"/>
+    <file name="cmd line.jpg" crc="520958827" ref="try" seo="true"/>
+    <file name="vcn_viewer.jpg" crc="112657178" ref="try" seo="true"/>
+    <file name="fpgas-for-dummies_sm.jpg" crc="368118748" ref="learn" seo="true"/>
+    <file name="boot_flow.jpg" crc="3775540936" ref="learn" seo="true"/>
+    <file name="chalktalk_sm_200.jpg" crc="4219088025" ref="index" seo="true"/>
+    <file name="lookinside1_sm_200.jpg" crc="131794204" ref="index" seo="true"/>
+    <file name="lookinside2_sm_200.jpg" crc="386731420" ref="index" seo="true"/>
+    <file name="lookinside3_sm_200.jpg" crc="3832175463" ref="index" seo="true"/>
+    <file name="lookinside4_sm_200.jpg" crc="105258712" ref="index" seo="true"/>
+    <file name="lookinside5_sm_200.jpg" crc="3986610265" ref="index" seo="true"/>
+    <file name="ecosystem.jpg" crc="3847525910" ref="learn" seo="true"/>
+    <file name="start.jpg" crc="388588458" seo="true" ref="index"/>
+    <file name="play.jpg" crc="125468285" seo="true" ref="play"/>
+    <file name="try.jpg" crc="4050246330" seo="true" ref="try"/>
+    <file name="survey.jpg" crc="415806336" seo="true" ref="develop"/>
+    <file name="boot-independent.jpg" crc="508033116" seo="true" ref="learn"/>
+    <file name="boot-cpu_first.jpg" crc="4128884226" seo="true" ref="learn"/>
+    <file name="rocketboards-normal.png" crc="3774600351" ref="develop:learn"/>
+    <file name="rocketboards-rollover.jpg" crc="4028723301" ref="develop:learn"/>
+    <file name="boot_fpga_first.jpg" crc="222757031" seo="true" ref="learn"/>
+    <file name="alteraopensource-normal.png" crc="4100489691" ref="develop"/>
+    <file name="alteraopensource-rollover.jpg" crc="346698539" ref="develop"/>
+    <file name="pdf-icon.jpg" crc="185099995" seo="true" ref="index"/>
+    <file name="atlas-soc_logo.jpg" crc="294150459" seo="true" ref="index:play:develop:try:learn"/>
+  </folder>
+  <folder name="css">
+    <file name="site_global.css" crc="90485502"/>
+    <file name="master_a-master.css" crc="436376923" ref="index:play:learn:try:develop"/>
+    <file name="index.css" crc="3948500991" ref="index"/>
+    <file name="play.css" crc="100409661" ref="play"/>
+    <file name="learn.css" crc="79032597" ref="learn"/>
+    <file name="try.css" crc="342370772" ref="try"/>
+    <file name="develop.css" crc="4290206855" ref="develop"/>
+  </folder>
+  <folder name="assets">
+    <file name="de0-nano-soc.pdf" crc="443412375" mt="1423791588000"/>
+    <file name="de0-nano-soc_user_manual.pdf" crc="238333681" mt="1423791588000"/>
+    <file name="a-look-inside--soc-fpgas-system-performance-(part-2-of-5).mp4" crc="4171399478" mt="1429744222000"/>
+    <file name="a-look-inside--soc-fpgas-reliability-and-flexibility-(part-3-of-5).mp4" crc="4061460043" mt="1429744224000"/>
+    <file name="a-look-inside--soc-fpgas-system-cost-and-power-(part-4-of-5).mp4" crc="326448472" mt="1429744228000"/>
+    <file name="a-look-inside--soc-fpgas-embedded-development-tools-(part-5-of-5).mp4" crc="48688703" mt="1429744231000"/>
+    <file name="a-look-inside--soc-fpgas-introduction-(part-1-of-5).mp4" crc="3836003049" mt="1429822175000"/>
+    <file name="wp-01202-embedded-system-soc-design-considerations.pdf" crc="91058474" mt="1429823452000"/>
+    <file name="why_soc_fpga.mp4" crc="125734413" mt="1429744213000"/>
+    <file name="de0-nano-soc_silkbot.pdf" crc="68849633" seo="true" mt="1438094469000"/>
+    <file name="de0-nano-soc_silktop.pdf" crc="4239459313" seo="true" mt="1438094469000"/>
+    <file name="atlas-soc_bom.xlsx" crc="414763986" seo="true" mt="1439318738000"/>
+    <file name="atlas-soc_user_manual.pdf" crc="302613186" seo="true" mt="1432753890000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="4255413929" ref="index:play:learn:try:develop"/>
+    <file name="museutils.js" crc="183364071" ref="index:play:learn:try:develop"/>
+    <file name="jquery.musemenu.js" crc="3957776250" ref="index:play:learn:try:develop"/>
+    <file name="jquery.watch.js" crc="71412426" ref="index:play:learn:try:develop"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:play:learn:try:develop"/>
+    <file name="webpro.js" crc="3803554875" ref="learn:index:play:try:develop"/>
+    <file name="musewpdisclosure.js" crc="3993616448" ref="learn:index:play:try:develop"/>
+    <file name="pie.js" crc="3827607177" ref="play:develop:learn:try"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4004268962" ref="develop:learn"/>
+  </folder>
+  <file name="index.html" crc="395790120" mt="1443105075942" redirect="true" seo="true"/>
+  <file name="play.html" crc="334601424" mt="1444072478597" redirect="true" seo="true"/>
+  <file name="learn.html" crc="4163902110" mt="1443105127859" redirect="true" seo="true"/>
+  <file name="try.html" crc="3921361131" mt="1438980270241" redirect="true" seo="true"/>
+  <file name="develop.html" crc="329792167" mt="1459428850868" redirect="true" seo="true"/>
+</manifest>

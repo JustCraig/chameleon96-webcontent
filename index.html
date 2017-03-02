@@ -2,6 +2,9 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
 <style>
 * {
     box-sizing: border-box;
@@ -9,12 +12,89 @@
 .row::after {
     content: "";
     clear: both;
-    display: table;
+    display: block;
 }
 [class*="col-"] {
     float: left;
     padding: 15px;
 }
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	position: float;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #000000;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+.aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+/* All buttons except readme */
+.button {
+    background-color: #33b5e5; /* blue */
+	border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	height:50px;
+    width:300px;
+}
+
+/* Make Read Me button Green */ 
+.button1 {
+    background-color: #4CAF50; /* green */
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	height:50px;
+    width:300px;
+}
+
+
+/* For desktop: */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -28,92 +108,26 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-html {
-    font-family: "Lucida Sans", sans-serif;
-}
-
-<!--  another comment -->
-
-
-.header {
-    background-color: #205075;
-    color: #ffffff;
-    padding: 15px;
-}
-
-.menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.menu li {
-    padding: 8px;
-    margin-bottom: 7px;
-    background-color: #33b5e5;
-    color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
-.menu li:hover {
-    background-color: #0099cc;
-}
-
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
-.readMeButton {border-radius: 8px;
-			   position: relative;
-			   }
-			   
-/**** Tooltip *****/			   
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-}	
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: gray;
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-	padding: 5px 0;
- 
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-	top: -5px;
-	left: 105%;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-}
-//***** End Tooltip ******/		   
-
+@media only screen and (max-width: 1300px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+	
+	
 </style>
-
-/******************************************************/
-/*     End Embedded Style Sheet                       */
-/******************************************************/
-
-
 </head>
 <body>
+
+<script>
+function setURL(url){
+    document.getElementById('iframe').src = url;
+}
+</script>
+
+  <script type="text/javascript">
+   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.musemenu.js", "webpro.js", "musewpdisclosure.js", "jquery.watch.js", "index.css"], "outOfDate":[]};
+</script>
 
 <div class="header">
   <h1>  <img {
@@ -121,57 +135,34 @@ html {
 		height: auto
 		} 
 		src="cham96_logo_small.png" height="100" width=200/>   
-		Welcome to the Arrow Electronics Chameleon96 Board</h1>  
+		Welcome to the Arrow Electronics Chameleon96 Board
+  </h1>  
 </div>
-
-
 
 <div class="row">
-
-<!-- /*		<a href="/readMePage/cham96ReadMeFirst.html"></a>   */   --->
-
 <div class="col-3 menu">
-  <ul>
-  
-	<div class="tooltip">
-        <span class="tooltiptext">Background on the Chameleon96 Board</span>
-        <a href="readMePage/Arrow Chameleon96 Board _ Documentation _ RocketBoards.org.html" class="button">Read Me First</a>		
-	</div>
-
-	<li>Chameleon board setup</li>
-
-    <li>Projects and examples</li>
-	
-	<li>Learn more about designing with Intel FPGA SOCs</li>
-
-    <li>Compatible daughter cards</li>    
-
-	<li>Other 96Boards</li>
-	
-	<li>More about the 96Boards initiative</li>
-
-	</ul>
+<ul>
+    <button title="Chameleon board background"             class="button1"  onclick="setURL('readMePage/chamReadMe.html')">Read me first! </button>	
+    <button title="Sets up WIFI, graphics, etc"            class="button"  onclick="setURL('setupPage/setup.html')">Chameleon board setup </button>
+	<button title="Security and other examples"            class="button"  onclick="setURL('projectsPage/projects.html')">Projects and Examples</button>
+	<button title="Take the next step!"                    class="button"  onclick="setURL('learnPage/learn.html')">Design with Intel SOC FPGAs </button>
+	<button title="Ecosystem, specifications and products" class="button"  onclick="setURL('more96BoardsInfoPage/About%2096Boards.html')">What is 96Boards?</button>
+</ul>
 </div>
-
-
-<!--Display different things in col-9 based on menu pick-->
-<div class="col-3">
-  <h1>What is it?</h1>
-  <p>Hover over the board for a description of each component.</p>
-  <img {
-		max-width: 10%;
-		height: auto
-		} 
-		src="cham96_small_top.png"/>
-</div>
-
-<div class="col-4">
-	<h1>Board Setup</h1>
-	<p> Many things on the Chameleon Board need to be set up</p>
-	<p> If you're reading this, you already have a USB or Ethernet connection to the board</p>
-	<p> To configure wifi, click here </p>
+<!----------------------------------->
+<!--- THIS IS THE CONTENT COLUMN  --->
+<!----------------------------------->
+<div class="col-9">
+<div id="container">
+  <iframe id="iframe" src="readMePage/chamReadMe.html" width="100%" height="768">/>	
+</div>  
 </div>
 </div>
+
+<!--  <div class="footer">   -->
+  <p>Resize the browser window to see how the content respond to the resizing.</p>
+
+ <!-- </div>   -->
 
 </body>
 </html>
